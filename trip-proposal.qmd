@@ -1,0 +1,31 @@
+---
+format: 
+  revealjs:
+    theme: simple
+    auto-animate-easing: ease-in-out
+    self-contained: false
+    slide-number: false
+    df-print: paged
+knitr:
+  opts_chunk: 
+    echo: true
+    fig-format: png
+---
+
+## {background-iframe="title/dist/index.html"}
+
+
+## But what will you do in Paris? 
+
+::: {.r-stack}
+
+<iframe src="multiple-images/index.html" width="100%" height="100%"></iframe>
+
+![](images/Louvre.jpg){.fragment .fade-up}
+
+![](images/Eiffel.jpg){.fragment .fade-up}
+
+:::
+
+
+## test
