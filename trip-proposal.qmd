@@ -1,7 +1,8 @@
 ---
 format: 
   revealjs:
-    theme: simple
+    theme: [simple, styles.scss]
+    controls: true
     auto-animate-easing: ease-in-out
     self-contained: false
     slide-number: false
@@ -10,12 +11,32 @@ knitr:
   opts_chunk: 
     echo: true
     fig-format: png
+resources: 
+  - "title/"
+  - "multiple-images/"
 ---
 
-## {background-iframe="title/dist/index.html"}
+# {data-menu-title="Title-Slide" background-iframe="title/dist/index.html"}
+
+::: {style="max-width: none; height: 1000px; width: 100%; clear: both;"}
+
+:::
+
+## {}
+
+::: {.r-stack}
+
+![](images/map-zoomed-out.png){.photo .fragment .fade-out fragment-index=1}
+
+![](images/map.png){.photo .fragment .fade-up fragment-index=1}
 
 
-## But what will you do in Paris? 
+:::
+
+
+# Paris
+
+## Paris - What to do?
 
 ::: {.r-stack}
 
@@ -25,7 +46,183 @@ knitr:
 
 ![](images/Eiffel.jpg){.fragment .fade-up}
 
+![](images/arc-de-triomphe.jpg){.fragment .fade-up}
+
+:::
+
+## Paris - What not to do?
+
+::: {.r-stack}
+
+<iframe src="multiple-images/index.html" width="100%" height="100%"></iframe>
+
+![](images/paris-traffic-1.jpg){.fragment .fade-up}
+
+![](images/paris-traffic-2.jpg){.fragment .fade-up}
+
+:::
+
+# Giverny<br>(1 Night) {data-menu-title="Giverny (1 Night)"}
+
+## Giverny - The Hermitage B&B
+
+![](images/hermitage.jpg){.photo}
+
+## Giverny - Monet's Gardens (20 min walk)
+
+![](images/monet-estate.jpg){.photo}
+
+## Giverny - Monet's Gardens (20 min walk)
+
+![](images/monet-bridge.jpg){.photo}
+
+## Giverny - Monet's Gardens (20 min walk)
+
+![](images/monet-pond.jpg){.photo}
+
+
+## Giverny - Vernon (25 min walk)
+
+![](images/vernon-town.jpg){.photo}
+
+## Giverny - Vernon (25 min walk)
+
+![](images/vernon-mill.png){.photo}
+
+
+# Rouen<br>(passing through) {data-menu-title="Rouen (passing through)"}
+
+## Rouen - Cathedral
+
+::: {layout="[1,2]"}
+
+![](images/Rouen-cathedral.jpg){.photo}
+
+![](images/Rouen-cathedral-interior.jpg){.photo}
+
+:::
+
+## Rouen - Joan of Arc Memorial
+
+![](images/Joan-of-Arc-memorial.png){.photo}
+
+## Rouen - Catholic Church of St Joan of Arc
+
+![](images/Joan-of-Arc-Church-1.jpg){.photo}
+
+## Rouen - Catholic Church of St Joan of Arc
+
+![](images/Joan-of-Arc-Church-2.jpg){.photo}
+
+## Rouen - Catholic Church of St Joan of Arc
+
+![](images/Joan-of-Arc-Church-3.jpg){.photo}
+
+# Étretat<br>(passing through) {data-menu-title="Étretat (passing through)"}
+
+## Étretat - Hiking
+
+![](images/Etretat.jpg){.photo}
+
+## Étretat - Chapelle Notre-Dame-de-la-Garde
+
+![](images/Etretat-church.jpg){.photo}
+
+## Étretat - Chapelle Notre-Dame-de-la-Garde
+
+![](images/Etretat-church-interior.jpg){.photo}
+
+## Étretat - Jardins d'Étretat
+
+![](images/Etretat-gardens.jpg){.photo}
+
+# Honfluer<br>(2 Nights) {data-menu-title="Honfluer (2 Nights)"}
+
+## Honfluer - The Vieux Basin
+
+![](images/honfleur-basin.jpg){.photo}
+
+## Honfluer - It's a pretty town
+
+![](images/Honfleur-cafe.jpg){.photo}
+
+# Mont Saint Michel<br>(1 Night) {data-menu-title="Mont Saint Michel (1 Night)"}
+
+## Mont Saint Michel
+
+![](images/Mont-Saint-Michel.jpg){.photo}
+
+# Argentan<br>(passing through) {data-menu-title="Argentan (passing through)"}
+
+
+
+## Argentan
+
+![](images/argentan-castle.png){.photo}
+
+## Argentan
+
+![](images/argentan-chapel.png){.photo}
+
+## Argentan - Lace Musuem
+
+![](images/argentan-lace.png){.photo}
+
+::: {.callout-warning .fragment}
+I'm not sure this museum actually exists.
+
+If it does, it's $2 to enter and only open until October 15.
 :::
 
 
-## test
+# Dreux<br>(passing through) {data-menu-title="Dreux (passing through)"}
+
+## Dreux - Chateau d'Anet
+
+![](images/chateau_d_anet.jpg){.photo}
+
+
+## Dreux - Chateau d'Anet
+
+![](images/chateau_d_anet_dome_2.png){.photo}
+
+# Paris<br>(1 Night) {data-menu-title="Paris (1 Night)"}
+
+## Paris - You know the drill
+
+<iframe src="multiple-images/index.html" width="100%" height="100%"></iframe>
+
+
+## Overall Itinerary (scroll down) {.scrollable}
+
+* Paris (3x nights)
+  * Train to Giverny
+* Giverny (1 night)
+  * [The Hermitage Bed and Breakfast](https://giverny-france.com/hermitage.htm)
+    * 17th century Norman manor 
+    * $130/night including breakfast for 2
+  * 20 minute walk to Monet's gardens
+  * 25 minute walk to Vernon
+  * Train to Rouen
+* Rouen (just passing through)
+  * Rent car
+  * Joan of Arc square
+  * Cathedral
+  * Drive to Etretat
+* Etretat (just passing through)
+  * Moderate 2.6 mile hike to see ocean cliffs
+  * Pebble beach
+  * Chapelle Notre-Dame-de-la-Garde
+  * Les Jardins d’Étretat
+  * Drive to Honfluer
+* Honfluer (2x night) 
+  * Drive to Mont Saint Michel
+* Mont Saint Michel (1x night)
+  * Drive to Dreux
+* Potential stops along drive to Dreux
+* Dreux
+  * Return car
+  * Chateau d'Anet
+  * Train to Paris
+* Paris (1x nights)
+
